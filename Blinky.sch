@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R4
+U 1 1 60FCE745
+P 2400 1350
+F 0 "R4" H 2459 1396 50  0000 L CNN
+F 1 "500R" H 2459 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2400 1350 50  0001 C CNN
+F 3 "~" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60FCA88C
+P 2400 1050
+F 0 "D4" V 2347 1130 50  0000 L CNN
+F 1 "LED" V 2438 1130 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 2400 1050 50  0001 C CNN
+F 3 "~" H 2400 1050 50  0001 C CNN
+	1    2400 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 60FE79D4
+P 2200 1350
+F 0 "R3" H 2259 1396 50  0000 L CNN
+F 1 "500R" H 2259 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2200 1350 50  0001 C CNN
+F 3 "~" H 2200 1350 50  0001 C CNN
+	1    2200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60FE79DA
+P 2200 1050
+F 0 "D3" V 2147 1130 50  0000 L CNN
+F 1 "LED" V 2238 1130 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 2200 1050 50  0001 C CNN
+F 3 "~" H 2200 1050 50  0001 C CNN
+	1    2200 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1250 2400 1200
+Wire Wire Line
+	2200 1250 2200 1200
+$Comp
+L Device:R_Small R2
+U 1 1 60FE8C1A
+P 2050 1350
+F 0 "R2" H 2109 1396 50  0000 L CNN
+F 1 "500R" H 2109 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2050 1350 50  0001 C CNN
+F 3 "~" H 2050 1350 50  0001 C CNN
+	1    2050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60FE8C20
+P 2050 1050
+F 0 "D2" V 1997 1130 50  0000 L CNN
+F 1 "LED" V 2088 1130 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 2050 1050 50  0001 C CNN
+F 3 "~" H 2050 1050 50  0001 C CNN
+	1    2050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60FEA7CD
+P 1900 1350
+F 0 "R1" H 1959 1396 50  0000 L CNN
+F 1 "500R" H 1959 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 1900 1350 50  0001 C CNN
+F 3 "~" H 1900 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60FEA7D3
+P 1900 1050
+F 0 "D1" V 1847 1130 50  0000 L CNN
+F 1 "LED" V 1938 1130 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 1900 1050 50  0001 C CNN
+F 3 "~" H 1900 1050 50  0001 C CNN
+	1    1900 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 1250 2050 1200
+Wire Wire Line
+	1900 1200 1900 1250
+Wire Wire Line
+	1900 1450 2000 1450
+$Comp
+L power:GND #PWR0101
+U 1 1 611CC099
+P 2600 1800
+F 0 "#PWR0101" H 2600 1550 50  0001 C CNN
+F 1 "GND" H 2605 1627 50  0000 C CNN
+F 2 "" H 2600 1800 50  0001 C CNN
+F 3 "" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 611CC408
+P 2200 2000
+F 0 "J1" V 2072 2280 50  0000 L CNN
+F 1 "Conn_01x05" V 2163 2280 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2200 2000 50  0001 C CNN
+F 3 "~" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1450 2000 1800
+Wire Wire Line
+	2050 1450 2050 1800
+Wire Wire Line
+	2050 1800 2100 1800
+Wire Wire Line
+	2200 1450 2200 1800
+Wire Wire Line
+	2300 1800 2300 1450
+Wire Wire Line
+	2300 1450 2400 1450
+Wire Wire Line
+	2400 1800 2600 1800
+Wire Wire Line
+	2600 1800 2600 850 
+Wire Wire Line
+	2600 850  2400 850 
+Wire Wire Line
+	1900 850  1900 900 
+Connection ~ 2600 1800
+Wire Wire Line
+	2050 900  2050 850 
+Connection ~ 2050 850 
+Wire Wire Line
+	2050 850  1900 850 
+Wire Wire Line
+	2200 900  2200 850 
+Connection ~ 2200 850 
+Wire Wire Line
+	2200 850  2050 850 
+Wire Wire Line
+	2400 900  2400 850 
+Connection ~ 2400 850 
+Wire Wire Line
+	2400 850  2200 850 
+$EndSCHEMATC
